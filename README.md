@@ -8,14 +8,18 @@
 	- *helloworld.c*
 	- Coding structure and conventions
 		- Source file and output file
-		- Naming and case sensivite
+		- Block {}
+        - Naming and case sensivite
 		- Commenting
 		- Preprocessor command
 			- `#include`
+		- Header file library
+			- `<stdio.h>` 
 		- Standard io device
 			- Console
 		- Program entry point 
 			- `main` function
+		- Functions
 
 - **Data types and variables**
 - **Data structures**

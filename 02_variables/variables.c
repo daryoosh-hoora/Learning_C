@@ -25,20 +25,38 @@ int main() {
 	double 	myDouble;
 	char 	myChar;
 
-	// Variable assignments
+	// Multiple variable declaration
+    int x, y, z;
+
+    // Variable definitions
+    int a = 7;
+    int b = 8, c = 9;
+
+    // Variable assignments
 	myInt = 5;
 	myFloat = 12.45;
 	myDouble = 12.45;
 	myChar = 'C';
+    
+    x = y = z = 1;
+
+    a = 12;
 
 	// Print variables
 	/* printf is an unsafe data type function, so it is necessary to using
 	   format specifier as %x specific for each data type.
 	*/
-	printf("%i\n", myInt);
-	printf("%f\n", myFloat);
-	printf("%lf\n", myDouble);
-	printf("%c\n", myChar);
+	printf("myInt: %i\n", myInt);
+    printf("myInt: %d\n", myInt);
+    printf("myFloat: %f\n", myFloat);
+	printf("myFloat: %.1f\n", myFloat);
+    printf("myFloat: %.9f\n", myFloat);
+    printf("myFloat: %.6f\n", myFloat);
+    printf("myFloat: %.7f\n", myFloat);
+    printf("myDouble: %lf\n", myDouble);
+    printf("myDouble: %.9lf\n", myDouble);
+    printf("myDouble: %.15lf\n", myDouble);
+	printf("myChar: %c\n", myChar);
 
 	return 0;
 }
